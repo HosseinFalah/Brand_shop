@@ -1,0 +1,50 @@
+@import 'fonts.css';
+
+body {
+    font-family: "YekanBakh";
+    background: #F9F9F9;
+}
+
+.border-dotted {
+    border: 2px dashed #707070;
+}
+
+.border-bottom-dotted {
+    border-bottom: 2px dotted;
+}
+
+.text-sm {
+    font-size: 0.8rem;
+}
+
+.w-80 {
+    width: 80% !important;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tab_content {
+    display: none;
+}
+
+.tab_content.active {
+    display: flex;
+}
