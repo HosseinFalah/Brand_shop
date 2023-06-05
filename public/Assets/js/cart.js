@@ -16,8 +16,4 @@ const TabChange = (e) => {
     allContent.forEach(content => content.classList.remove('active'));
     //Show Content
     mainContent.classList.add('active');
-    console.log(mainContent);
 }
-
-console.log(allTabs);
-console.log(allContent);
