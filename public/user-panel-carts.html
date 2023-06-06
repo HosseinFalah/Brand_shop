@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="Assets/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="Assets/css/index.css">
+    <title>پنل کاربری-سبد خرید</title>
+</head>
+
+<body>
+    <!--Start Header-->
+    <header class="container-fluid bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="d-md-none" href="#">
+                    <img src="Assets/Images/Brand.png" class="img-fluid w-50" alt="logo" />
+                </a>
+                <div>
+                    <button class="d-md-none btn btn-success bg-gradient shadow">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="d-md-none btn btn-danger bg-gradient shadow">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </button>
+                </div>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="d-flex align-items-center justify-content-between py-1">
+                        <a href="#">
+                            <img src="Assets/Images/Brand.png" class="img-fluid w-50" alt="logo" />
+                        </a>
+                        <form class="d-flex gap-2" role="search">
+                            <button class="btn btn-success bg-gradient shadow">
+                                فروشگاه
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                            <button class="btn btn-danger bg-gradient shadow d-flex align-items-center gap-2">
+                                خروج
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--End Header-->
+    <!-- Start Main Content -->
+    <main class="container">
+        <div class="row my-5 gy-5 gy-xl-0">
+            <div class="col-12 col-xl-4 d-flex flex-column gap-3">
+                <a href="user-panel.html" class="btn btn-outline-primary shadow-sm">مشخصات</a>
+                <a href="user-panel-order.html" class="btn btn-outline-primary shadow-sm">پیگیری خرید</a>
+                <a href="user-panel-carts.html" class="btn btn-primary shadow-sm">سبد خرید</a>
+                <a href="user-panel-change-password.html" class="btn btn-outline-primary shadow-sm">تغییر رمز</a>
+            </div>
+            <div class="col-12 col-xl-8">
+                <div class="bg-white shadow p-4">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p class="m-0 fw-bold text-muted fa-5">سبد خرید</p>
+                        </div>
+                        <div class="table-responsive-md text-nowrap">
+                            <table class="table table-striped table-hover my-4">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col">شماره سفارش</th>
+                                        <th scope="col">تاریخ سفارش</th>
+                                        <th scope="col">توضیحات</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <button class="btn btn-danger bg-gradient shadow">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </th>
+                                        <th>16</th>
+                                        <td>1402/01/30</td>
+                                        <td>پرداخت نشده</td>
+                                        <td>
+                                            <a href="user-panel-cart.html" class="btn btn-secondary bg-gradient shadow rounded rounded-5 px-5">مشاهده و پرداخت</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <button class="btn btn-danger bg-gradient shadow">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </th>
+                                        <th>17</th>
+                                        <td>1402/01/30</td>
+                                        <td>پرداخت نشده</td>
+                                        <td>
+                                            <a href="user-panel-cart.html" class="btn btn-secondary bg-gradient shadow rounded rounded-5 px-5">مشاهده و پرداخت</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <button class="btn btn-danger bg-gradient shadow">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </th>
+                                        <th>18</th>
+                                        <td>1402/01/30</td>
+                                        <td>پرداخت نشده</td>
+                                        <td>
+                                            <a href="user-panel-cart.html" class="btn btn-secondary bg-gradient shadow rounded rounded-5 px-5">مشاهده و پرداخت</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <button class="btn btn-danger bg-gradient shadow">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </th>
+                                        <th>19</th>
+                                        <td>1402/01/30</td>
+                                        <td>پرداخت نشده</td>
+                                        <td>
+                                            <a href="user-panel-cart.html" class="btn btn-secondary bg-gradient shadow rounded rounded-5 px-5">مشاهده و پرداخت</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Main Content -->
+    <!--Start Footer-->
+    <footer class="container position-relative">
+        <div class="pt-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="w-100" height="51.182" viewBox="0 0 2858.037 51.182">
+                <path id="Path_26" data-name="Path 26"
+                    d="M2858.827,3349.843s-156.794,6.59-311.3,11.528c-62.392,1.994-116.019,24.629-171.7,14.2-127.265-23.826-212.124-14.348-276-14.2-33.06.074-59.473-4.325-82.437,0-66.753,12.572-69.667,11.195-69.667,31.135,26.406,10.158,64.049,3.01,69.667-12.792-10.113-17.307-14.816-21.377-81.112-12.2-75.285,25.732-73.953,17.09-140.25,8.061s-135.009-8.061-135.009-8.061c-75.285,13.544-154.293-17.672-154.293-17.672s-191.323,9.2-203.667,25.732-144.174,2.373-247.859-19.119c-39.919-8.274-71.244-.114-101.093,0-47.013.18-85.556-2.159-115.162,11.058-48.14,21.491-145.408,12.553-168.861-6.144s-22.341-6.926-91.465,5.472-152.19,8.58-176.877,7.753-133.064-31.41-184.907-22.318-58.014,27.277-46.905,28.1,77.764,23.144,82.7,4.133c4.36-16.787-22.5-35.549-35.8-32.237-1.278.31-5.161,8.125-6.172,9.093-8.64,8.266-18.515,10.746-11.109,13.225s22.218,0,22.218,0-75.3-29.757-81.467-27.277-45.671,5.878-48.139,9.138-11.109,4.087-34.562,4.914-48.139,5.159-56.78,5.472"
+                    transform="translate(-0.809 -3346.687)" fill="none" stroke="#707070" stroke-width="1"
+                    stroke-dasharray="6" />
+            </svg>
+        </div>
+        <div class="row row-cols-2 align-content-center justify-content-around">
+            <div class="col-lg-5">
+                <p class="text-muted text-sm m-0 ">:::::: آدرس ::::::</p>
+                <p class="text-muted text-sm m-0">
+                    ایران، استان تهران، شهر تهران، محله تان، خیابان اصلی، خیابان <br> فرعی
+                </p>
+                <p class="text-muted text-sm m-0">
+                    مجتمع تجاری، طبقه، کد پستی، پلاک
+                </p>
+                <button class="btn btn-outline-primary rounded-5 my-1">نمایش روی نقشه بلد</button>
+                <p class="text-muted m-0">:::::: تماس ::::::</p>
+                <p class="text-muted">021 - 1122 3344</p>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <p> :::::: مجوز های رسمی ::::::</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="img-fluid"
+                        height="136" viewBox="0 0 125 136">
+                        <image id="NoPath" width="125" height="136"
+                            xlink:href="data:image/png;base64,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" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="img-fluid"
+                        height="85" viewBox="0 0 60 85">
+                        <defs>
+                            <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%"
+                                viewBox="0 0 60 85">
+                                <image width="60" height="85"
+                                    xlink:href="data:image/png;base64,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" />
+                            </pattern>
+                        </defs>
+                        <rect id="Image_1" data-name="Image 1" width="60" height="85" rx="11" opacity="0.3"
+                            fill="url(#pattern)" style="mix-blend-mode: luminosity;isolation: isolate" />
+                    </svg>
+                </div>
+            </div>
+            <div class="position-absolute z-n1 w-75">
+                <img src="Assets/Images/banner_footer.png" class="img-fluid" alt="footer banner">
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+    <script src="Assets/js/bootstrap.bundle.min.js"></script>
+    <script src="Assets/js/all.min.js"></script>
+</body>
+
+</html>
