@@ -18,11 +18,11 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <button class="btn btn-light position-relative d-md-none">
+                <button class="btn btn-light position-relative d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="position-absolute top-0 start-0 translate-middle badge border border-light rounded-circle bg-danger">0</span>
                     <i class="fa-solid fa-cart-shopping"></i>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas offcanvas-end" tabindex="-1">
                     <div class="d-flex align-items-center justify-content-between py-1">
                         <a href="#">
                             <img src="Assets/Images/Brand.png" class="img-fluid w-50" alt="logo"/>
@@ -32,7 +32,7 @@
                             <i class="fa-solid fa-magnifying-glass position-absolute top-50 end-0 translate-middle-y me-3"></i>
                         </div>
                         <form class="d-flex gap-2 d-none d-lg-block" role="search">
-                            <button class="btn btn-outline-success shadow">
+                            <button class="btn btn-outline-success shadow" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                                 سبد خرید
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
@@ -42,7 +42,7 @@
                             </button>
                         </form>
                         <form class="d-flex gap-2 d-lg-none" role="search">
-                            <button class="btn btn-light">
+                            <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                             <button class="btn btn-light">
@@ -64,7 +64,7 @@
                             </div>
                         </form>
                         <form class="d-flex mt-3 gap-2 d-md-none" role="search">
-                            <button class="btn btn-outline-success">
+                            <button class="btn btn-outline-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                                 سبد خرید
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
@@ -132,6 +132,82 @@
         </div>
     </div>
     <!-- End List Navbar -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <p class="m-0"> :::::::::::: سبد خرید :::::::::::::</p>
+            <button class="btn btn-danger bg-gradient d-flex align-items-center" data-bs-dismiss="offcanvas" aria-label="Close">
+                بستن
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="d-flex flex-column gap-3 border-bottom pb-3">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="Assets/Images/course-graphql.jpg" class="w-25 rounded-3" alt="course">
+                        <div>
+                            <p class="fw-bold m-0">نام محصول</p>
+                            <p class="text-muted text-sm m-0">توضیح یک خطی محصول که برای تمایز بین محصولات مشابه میاد</p>
+                            <p class="text-muted text-sm m-0">145.000 تومان</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-danger bg-gradient shadow-sm">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="Assets/Images/course-react.jpg" class="w-25 rounded-3" alt="course">
+                        <div>
+                            <p class="fw-bold m-0">نام محصول</p>
+                            <p class="text-muted text-sm m-0">توضیح یک خطی محصول که برای تمایز بین محصولات مشابه میاد</p>
+                            <p class="text-muted text-sm m-0">145.000 تومان</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-danger bg-gradient shadow-sm">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="Assets/Images/course-javascript.jpg" class="w-25 rounded-3" alt="course">
+                        <div>
+                            <p class="fw-bold m-0">نام محصول</p>
+                            <p class="text-muted text-sm m-0">توضیح یک خطی محصول که برای تمایز بین محصولات مشابه میاد</p>
+                            <p class="text-muted text-sm m-0">145.000 تومان</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-danger bg-gradient shadow-sm">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="Assets/Images/course-node.jpg" class="w-25 rounded-3" alt="course">
+                        <div>
+                            <p class="fw-bold m-0">نام محصول</p>
+                            <p class="text-muted text-sm m-0">توضیح یک خطی محصول که برای تمایز بین محصولات مشابه میاد</p>
+                            <p class="text-muted text-sm m-0">145.000 تومان</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-danger bg-gradient shadow-sm">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row flex-row-reverse align-items-center my-3">
+                <div class="col-12 col-md-6">
+                    <p>برای تعیین تعداد محصولات و تسویه حساب فاکتور به صفحه سبد خرید مراجعه نمایید</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <button class="btn btn-success bg-gradient text-nowrap">
+                        مشاهده سبد خرید
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Start Main Content -->
     <main class="container">
         <!-- Start Main Slider -->
