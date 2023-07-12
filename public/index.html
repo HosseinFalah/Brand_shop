@@ -18,12 +18,20 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <button class="btn btn-light position-relative d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="position-absolute top-0 start-0 translate-middle badge border border-light rounded-circle bg-danger">0</span>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
+                <div class="gap-2">
+                    <button class="btn btn-light d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-solar-panel"></i>
+                    </button>
+                    <button class="btn btn-light position-relative d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="position-absolute top-0 start-0 translate-middle badge border border-light rounded-circle bg-danger">0</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
                 <div class="offcanvas offcanvas-end" tabindex="-1">
                     <div class="d-flex align-items-center justify-content-between py-1">
+                        <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                         <a href="#">
                             <img src="Assets/Images/Brand.png" class="img-fluid w-50" alt="logo"/>
                         </a>
